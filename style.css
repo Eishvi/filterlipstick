@@ -1,0 +1,30 @@
+body{
+
+background-size: cover;
+}
+h3{
+    font-size: 20px !important;
+    color: black;
+    background-color: lightpink;
+    width: 15%;
+}
+button{
+    background-color: black;
+    color: lightpink;
+}
+btn-success:hover{
+    background-color: darksalmon;
+}
+canvas{
+animation-name: anime;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+@keyframes anime{
+    10% {box-shadow:5px 5px 30px rgb(255, 0, 98);}
+    25% {box-shadow:5px 5px 30px rgb(245, 67, 135);}
+    50% {box-shadow:5px 5px 30px hotpink;}
+    75% {box-shadow:5px 5px 30px lightpink}
+    100% {box-shadow:5px 5px 30px rgb(248, 196, 204);}
+
+}
